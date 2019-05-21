@@ -1,19 +1,25 @@
-nav {
-    background: @blue;
-    color: @white;
-    .flex(space-around);
-    padding: .5rem 0;
-    
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    #about {
-        width: 35%;
-    }
-    @media(max-width:500px) {
+.navDiv {
+    background: #0f3d54;
+    display: flex;
+    justify-content: center;
+    nav {
+        max-width: 800px;
+        color: @white;
+        .flex(space-around);
+        padding: .5rem 0;
+        margin: 0 0 .2rem 0;
+        width: 100%;
+        a {
+            text-decoration: none;
+            color: @white;
+        }
         #about {
-            width: 15rem;
+            width: 35%;
+        }
+        @media(max-width:500px) {
+            #about {
+                width: 15rem;
+            }
         }
     }
 }

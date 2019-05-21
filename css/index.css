@@ -126,29 +126,31 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  max-width: 800px;
-  width: 100%;
-  margin: 0 auto;
+.navDiv {
+  background: #0f3d54;
+  display: flex;
+  justify-content: center;
 }
-nav {
-  background: #2f7faa;
+.navDiv nav {
+  max-width: 800px;
   color: #ffffff;
   display: flex;
   justify-content: space-around;
   align-items: none;
   flex-direction: row;
   padding: 0.5rem 0;
+  margin: 0 0 0.2rem 0;
+  width: 100%;
 }
-nav a {
+.navDiv nav a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
-nav #about {
+.navDiv nav #about {
   width: 35%;
 }
 @media (max-width: 500px) {
-  nav #about {
+  .navDiv nav #about {
     width: 15rem;
   }
 }
@@ -158,8 +160,19 @@ h1 {
   padding: 1rem 0;
   text-align: center;
 }
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+  flex-direction: column;
+  background: #0f3d54;
+}
+header img {
+  margin: 0 auto;
+}
 @media (max-width: 800px) {
-  img {
+  header img {
     display: none;
   }
 }
@@ -171,12 +184,8 @@ h1 {
   flex-direction: row;
   width: 100%;
   height: 47px;
-  background-color: #2f7faa;
-}
-@media (min-width: 1280px) {
-  .tabs {
-    width: 800px;
-  }
+  background-color: #0f3d54;
+  margin: 0 auto;
 }
 .tabs .topics {
   display: flex;
@@ -217,13 +226,8 @@ h1 {
   align-items: none;
   flex-direction: row;
   width: 100%;
-  margin-top: 16px;
   flex-wrap: wrap;
-}
-@media (min-width: 1200px) {
-  .cards-container {
-    width: 800px;
-  }
+  background: #2f7faa;
 }
 .cards-container .card {
   border-bottom: grey;
@@ -234,6 +238,7 @@ h1 {
   display: none;
   background-color: #2f7faa;
   width: 100%;
+  width: 752px;
   margin-bottom: 16px;
   padding: 24px;
   color: #ffffff;
@@ -265,4 +270,29 @@ h1 {
 }
 .cards-container #active {
   display: flex;
+}
+.devs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: #2f7faa;
+}
+.devs .dev {
+  display: flex;
+  justify-content: flex-left;
+  width: 800px;
+  background: #0f3d54;
+  padding-bottom: 1rem;
+}
+.devs .dev .namePhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 20%;
+  height: 7.6rem;
+  color: white;
+}
+.devs .dev .textContent {
+  color: white;
 }

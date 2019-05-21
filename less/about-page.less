@@ -1,3 +1,8 @@
+.spacer {
+    // padding-top: 4rem;
+    // background: @blue;
+}
+
 .devs {
     display: flex;
     flex-direction: column;
@@ -5,24 +10,39 @@
     width: 100%;
     background: @blue;
 
+    #dev1 {
+        padding-top: 2rem;
+    }
+
     .dev {
         display: flex;
         justify-content: flex-left;
-        width: 800px;
-        background: @darkBlue;
+        width: 100%;
+        background: @blue;
         padding-bottom: 1rem;
 
         .namePhoto {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            margin-right: 20%;
+            align-items: center;
+            margin-right: 5rem;
             height: 7.6rem;
             color: white;
+            padding-bottom: 1rem;
+
+            @media(max-width: 650px) {
+                margin-right: 2rem;
+            }
+            
+            img {
+                width: 100px;
+            }
         }
 
         .textContent {
             color: white;
+            margin-right: 1.5rem;
         }
 
     }

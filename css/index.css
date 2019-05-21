@@ -145,13 +145,22 @@ table {
 .navDiv nav a {
   text-decoration: none;
   color: #ffffff;
+  background: #2f7faa;
+  padding: 0.6rem 1rem;
+  border-radius: 3rem;
+}
+.navDiv nav .signUp {
+  background: #ffffff;
+  color: black;
+  padding: 0.6rem 1rem;
+  border-radius: 3rem;
 }
 .navDiv nav #about {
-  width: 35%;
+  margin-right: 10rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 650px) {
   .navDiv nav #about {
-    width: 15rem;
+    margin-right: 2.5rem;
   }
 }
 h1 {
@@ -227,7 +236,7 @@ header img {
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  background: #2f7faa;
+  background: #eeb241;
 }
 .cards-container .card {
   border-bottom: grey;
@@ -239,7 +248,6 @@ header img {
   background-color: #2f7faa;
   width: 100%;
   width: 752px;
-  margin-bottom: 16px;
   padding: 24px;
   color: #ffffff;
 }
@@ -278,21 +286,35 @@ header img {
   width: 100%;
   background: #2f7faa;
 }
+.devs #dev1 {
+  padding-top: 2rem;
+}
 .devs .dev {
   display: flex;
   justify-content: flex-left;
-  width: 800px;
-  background: #0f3d54;
+  width: 100%;
+  background: #2f7faa;
   padding-bottom: 1rem;
 }
 .devs .dev .namePhoto {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-right: 20%;
+  align-items: center;
+  margin-right: 5rem;
   height: 7.6rem;
   color: white;
+  padding-bottom: 1rem;
+}
+@media (max-width: 650px) {
+  .devs .dev .namePhoto {
+    margin-right: 2rem;
+  }
+}
+.devs .dev .namePhoto img {
+  width: 100px;
 }
 .devs .dev .textContent {
   color: white;
+  margin-right: 1.5rem;
 }

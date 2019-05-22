@@ -184,6 +184,7 @@ header h1 {
 }
 header img {
   margin: 0 auto;
+  margin-top: 1rem;
 }
 @media (max-width: 800px) {
   header img {

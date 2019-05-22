@@ -130,6 +130,7 @@ table {
   background: #0f3d54;
   display: flex;
   justify-content: center;
+  margin-bottom: 0.5rem;
 }
 .navDiv nav {
   max-width: 800px;
@@ -163,11 +164,8 @@ table {
     margin-right: 2.5rem;
   }
 }
-h1 {
-  font-size: 2rem;
-  background: #eeb241;
-  padding: 1rem 0;
-  text-align: center;
+.bottomNav {
+  border-top: 0.5rem solid white;
 }
 header {
   margin: 0 auto;
@@ -176,6 +174,13 @@ header {
   align-items: middle;
   flex-direction: column;
   background: #0f3d54;
+}
+header h1 {
+  font-size: 2rem;
+  background: #eeb241;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 0.5rem solid white;
 }
 header img {
   margin: 0 auto;
@@ -195,6 +200,7 @@ header img {
   height: 47px;
   background-color: #0f3d54;
   margin: 0 auto;
+  margin-bottom: 0.5rem;
 }
 .tabs .topics {
   display: flex;
@@ -250,6 +256,7 @@ header img {
   width: 752px;
   padding: 24px;
   color: #ffffff;
+  margin-bottom: 100px solid white;
 }
 .cards-container .card .headline {
   font-size: 25px;
@@ -284,9 +291,10 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  background: #eeb241;
 }
 .iconsContainer .icons {
+  border-top: 0.5rem solid white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -319,42 +327,49 @@ header img {
     margin: 0;
   }
 }
-.devs {
+.devsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0f3d54;
+}
+.devsContainer .devs {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 800px;
   background: #2f7faa;
 }
-.devs #dev1 {
+.devsContainer .devs #dev1 {
   padding-top: 2rem;
 }
-.devs .dev {
+.devsContainer .devs .dev {
   display: flex;
   justify-content: flex-left;
   width: 100%;
   background: #2f7faa;
   padding-bottom: 1rem;
 }
-.devs .dev .namePhoto {
+.devsContainer .devs .dev .namePhoto {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin-right: 5rem;
+  margin-left: 2rem;
   height: 7.6rem;
   color: white;
   padding-bottom: 1rem;
 }
 @media (max-width: 650px) {
-  .devs .dev .namePhoto {
+  .devsContainer .devs .dev .namePhoto {
     margin-right: 2rem;
   }
 }
-.devs .dev .namePhoto img {
+.devsContainer .devs .dev .namePhoto img {
   width: 100px;
 }
-.devs .dev .textContent {
+.devsContainer .devs .dev .textContent {
   color: white;
   margin-right: 1.5rem;
 }

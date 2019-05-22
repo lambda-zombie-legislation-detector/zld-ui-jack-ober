@@ -3,47 +3,54 @@
     // background: @blue;
 }
 
-.devs {
+.devsContainer {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 100%;
-    background: @blue;
-
-    #dev1 {
-        padding-top: 2rem;
-    }
-
-    .dev {
+    justify-content: center;
+    background: @darkBlue;
+    .devs {
         display: flex;
-        justify-content: flex-left;
-        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        width: 800px;
         background: @blue;
-        padding-bottom: 1rem;
-
-        .namePhoto {
+    
+        #dev1 {
+            padding-top: 2rem;
+        }
+    
+        .dev {
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
-            margin-right: 5rem;
-            height: 7.6rem;
-            color: white;
+            justify-content: flex-left;
+            width: 100%;
+            background: @blue;
             padding-bottom: 1rem;
-
-            @media(max-width: 650px) {
-                margin-right: 2rem;
+    
+            .namePhoto {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 5rem;
+                margin-left: 2rem;
+                height: 7.6rem;
+                color: white;
+                padding-bottom: 1rem;
+    
+                @media(max-width: 650px) {
+                    margin-right: 2rem;
+                }
+                
+                img {
+                    width: 100px;
+                }
             }
-            
-            img {
-                width: 100px;
+    
+            .textContent {
+                color: white;
+                margin-right: 1.5rem;
             }
+    
         }
-
-        .textContent {
-            color: white;
-            margin-right: 1.5rem;
-        }
-
     }
 }

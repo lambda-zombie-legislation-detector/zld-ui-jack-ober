@@ -377,6 +377,13 @@ header img {
 .devsContainer .devs .dev .namePhoto img {
   width: 100px;
 }
+.devsContainer .devs .dev .namePhoto span {
+  text-align: center;
+}
+.devsContainer .devs .dev .namePhoto p {
+  text-align: center;
+  margin-top: 0.5rem;
+}
 .devsContainer .devs .dev .textContent {
   color: #fffff0;
   margin-right: 1.5rem;

@@ -279,6 +279,46 @@ header img {
 .cards-container #active {
   display: flex;
 }
+.iconsContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+.iconsContainer .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #2f7faa;
+  width: 800px;
+}
+@media (max-width: 800px) {
+  .iconsContainer .icons {
+    width: 100%;
+  }
+}
+.iconsContainer .icons .box {
+  width: 390px;
+  display: flex;
+}
+.iconsContainer .icons .box img {
+  width: 150px;
+  height: 150px;
+}
+.iconsContainer .icons .box p {
+  margin-top: 1.8rem;
+  margin-left: 1.6rem;
+}
+.iconsContainer .icons .bottomBox {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+@media (max-width: 800px) {
+  .iconsContainer .icons .bottomBox {
+    margin: 0;
+  }
+}
 .devs {
   display: flex;
   flex-direction: column;

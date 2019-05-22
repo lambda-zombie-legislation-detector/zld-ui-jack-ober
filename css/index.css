@@ -317,12 +317,14 @@ header img {
   display: flex;
 }
 .iconsContainer .icons .box img {
-  width: 150px;
-  height: 150px;
+  width: 35%;
+  height: 180px;
 }
 .iconsContainer .icons .box p {
+  width: 62%;
   margin-top: 1.8rem;
   margin-left: 1.6rem;
+  color: #fffff0;
 }
 .iconsContainer .icons .bottomBox {
   margin-top: 3.5rem;

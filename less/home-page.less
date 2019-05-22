@@ -1,5 +1,7 @@
 
-
+body {
+  background: white;
+}
 
 
 header {
@@ -32,12 +34,15 @@ header {
     height: 47px;
     background-color: @darkBlue;
     margin: 0 auto;
-    margin-bottom: .5rem;
+    border-bottom: .3rem solid @darkBlue;
+    border-top: .3rem solid @darkBlue;
     // @media(min-width: 1280px){
     //   width: 800px;
     // }
     .topics {
-      .flex(none, center);
+      width: 800px;
+      display: flex;
+      justify-content: space-around;
       .title {
         font-size: 12px;
         letter-spacing: 1px;
@@ -45,12 +50,13 @@ header {
       }
       .tab {
         .flex(none, center);
-        color: @blue;
-        background-color: @white;
+        color: @white;
+        background-color: @blue;
         margin: 0 5px;
-        padding: 2px 10px;
+        padding: 7px 11px;
         font-size: 1rem;
         letter-spacing: 2px;
+        border-radius: 2rem;
         cursor: pointer;
         font-weight: bold;
         &:hover {
@@ -70,7 +76,7 @@ header {
     width: 100%;
     //margin-top: 16px;
     flex-wrap: wrap;
-    background: @gold;
+    background: @darkBlue;
     .card {
       border-bottom: grey;
       .flex(space-between, none, column);
@@ -80,7 +86,7 @@ header {
       width: 752px;
       padding: 24px;
       color: @white;
-      margin-bottom: 100px solid white;
+      margin-bottom: 100px solid @white;
       .headline {
         font-size: 25px;
         font-family: Didot, serif;
@@ -115,10 +121,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: @gold;
+    background: @darkBlue;
     
     .icons {
-      border-top: .5rem solid white;
+      border-top: .5rem solid @darkBlue;
+      border-bottom: 3rem solid @darkBlue;
       // border-bottom: .5rem solid white;
       display: flex;
       flex-wrap: wrap;

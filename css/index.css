@@ -134,7 +134,7 @@ table {
 }
 .navDiv nav {
   max-width: 800px;
-  color: #ffffff;
+  color: #fffff0;
   display: flex;
   justify-content: space-around;
   align-items: none;
@@ -145,13 +145,13 @@ table {
 }
 .navDiv nav a {
   text-decoration: none;
-  color: #ffffff;
+  color: #fffff0;
   background: #2f7faa;
   padding: 0.6rem 1rem;
   border-radius: 3rem;
 }
 .navDiv nav .signUp {
-  background: #ffffff;
+  background: #fffff0;
   color: black;
   padding: 0.6rem 1rem;
   border-radius: 3rem;
@@ -166,6 +166,9 @@ table {
 }
 .bottomNav {
   border-top: 0.5rem solid white;
+}
+body {
+  background: white;
 }
 header {
   margin: 0 auto;
@@ -201,13 +204,13 @@ header img {
   height: 47px;
   background-color: #0f3d54;
   margin: 0 auto;
-  margin-bottom: 0.5rem;
+  border-bottom: 0.3rem solid #0f3d54;
+  border-top: 0.3rem solid #0f3d54;
 }
 .tabs .topics {
+  width: 800px;
   display: flex;
-  justify-content: none;
-  align-items: center;
-  flex-direction: row;
+  justify-content: space-around;
 }
 .tabs .topics .title {
   font-size: 12px;
@@ -219,12 +222,13 @@ header img {
   justify-content: none;
   align-items: center;
   flex-direction: row;
-  color: #2f7faa;
-  background-color: #ffffff;
+  color: #fffff0;
+  background-color: #2f7faa;
   margin: 0 5px;
-  padding: 2px 10px;
+  padding: 7px 11px;
   font-size: 1rem;
   letter-spacing: 2px;
+  border-radius: 2rem;
   cursor: pointer;
   font-weight: bold;
 }
@@ -232,7 +236,7 @@ header img {
   text-decoration: underline;
 }
 .tabs .topics .active-tab {
-  background-color: #ffffff;
+  background-color: #fffff0;
   color: #2f7faa;
   border: 2px solid #2f7faa;
 }
@@ -243,7 +247,7 @@ header img {
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  background: #eeb241;
+  background: #0f3d54;
 }
 .cards-container .card {
   border-bottom: grey;
@@ -256,8 +260,8 @@ header img {
   width: 100%;
   width: 752px;
   padding: 24px;
-  color: #ffffff;
-  margin-bottom: 100px solid white;
+  color: #fffff0;
+  margin-bottom: 100px solid #fffff0;
 }
 .cards-container .card .headline {
   font-size: 25px;
@@ -292,10 +296,11 @@ header img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #eeb241;
+  background: #0f3d54;
 }
 .iconsContainer .icons {
-  border-top: 0.5rem solid white;
+  border-top: 0.5rem solid #0f3d54;
+  border-bottom: 3rem solid #0f3d54;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -359,7 +364,7 @@ header img {
   margin-right: 5rem;
   margin-left: 2rem;
   height: 7.6rem;
-  color: white;
+  color: #fffff0;
   padding-bottom: 1rem;
 }
 @media (max-width: 650px) {
@@ -371,6 +376,6 @@ header img {
   width: 100px;
 }
 .devsContainer .devs .dev .textContent {
-  color: white;
+  color: #fffff0;
   margin-right: 1.5rem;
 }

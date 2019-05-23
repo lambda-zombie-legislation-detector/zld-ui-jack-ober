@@ -357,7 +357,7 @@ header img {
   justify-content: flex-left;
   width: 100%;
   background: #2f7faa;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 .devsContainer .devs .dev .namePhoto {
   display: flex;
@@ -384,8 +384,12 @@ header img {
 .devsContainer .devs .dev .namePhoto p {
   text-align: center;
   margin-top: 0.5rem;
+  width: 100px;
 }
 .devsContainer .devs .dev .textContent {
   color: #fffff0;
   margin-right: 1.5rem;
+}
+.devsContainer .devs .dev .textContent p {
+  margin-top: 1.2rem;
 }

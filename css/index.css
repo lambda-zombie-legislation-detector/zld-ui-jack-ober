@@ -188,7 +188,7 @@ header h1 {
 }
 header img {
   margin: 0 auto;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 @media (max-width: 800px) {
   header img {
@@ -205,8 +205,8 @@ header img {
   height: 47px;
   background-color: #0f3d54;
   margin: 0 auto;
-  border-bottom: 0.3rem solid #0f3d54;
-  border-top: 0.3rem solid #0f3d54;
+  border-bottom: 0.8rem solid #0f3d54;
+  border-top: 0.8rem solid #0f3d54;
 }
 .tabs .topics {
   width: 800px;
@@ -268,22 +268,22 @@ header img {
   font-size: 25px;
   font-family: Didot, serif;
 }
-.cards-container .card .author {
+.cards-container .card .content {
   display: flex;
   justify-content: none;
   align-items: center;
   flex-direction: row;
   margin-top: 15px;
 }
-.cards-container .card .author .img-container {
+.cards-container .card .content .img-container {
   padding-right: 10px;
   border-right: 1px solid grey;
   height: 40px;
 }
-.cards-container .card .author .img-container img {
+.cards-container .card .content .img-container img {
   width: 40px;
 }
-.cards-container .card .author span {
+.cards-container .card .content span {
   padding-left: 10px;
   font-size: 12px;
   letter-spacing: 1px;
@@ -300,7 +300,7 @@ header img {
   background: #0f3d54;
 }
 .iconsContainer .icons {
-  border-top: 0.5rem solid #0f3d54;
+  border-top: 1.7rem solid #0f3d54;
   border-bottom: 3rem solid #0f3d54;
   display: flex;
   flex-wrap: wrap;
@@ -335,6 +335,14 @@ header img {
   .iconsContainer .icons .bottomBox {
     margin: 0;
   }
+}
+.iconsHeader {
+  text-align: center;
+  background: #0f3d54;
+  border-top: 1.5rem solid #0f3d54;
+  color: #fffff0;
+  font-size: 2rem;
+  padding-bottom: 0.7rem;
 }
 .devsContainer {
   display: flex;

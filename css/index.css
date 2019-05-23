@@ -151,7 +151,7 @@ table {
   border-radius: 3rem;
 }
 .navDiv nav .signUp {
-  background: #fffff0;
+  background: white;
   color: black;
   padding: 0.6rem 1rem;
   border-radius: 3rem;
@@ -166,6 +166,7 @@ table {
 }
 .bottomNav {
   border-top: 0.5rem solid white;
+  margin-bottom: 0;
 }
 body {
   background: white;
@@ -365,7 +366,6 @@ header img {
   align-items: center;
   margin-right: 5rem;
   margin-left: 2rem;
-  height: 7.6rem;
   color: #fffff0;
   padding-bottom: 1rem;
 }
@@ -379,6 +379,7 @@ header img {
 }
 .devsContainer .devs .dev .namePhoto span {
   text-align: center;
+  padding-top: 0.5rem;
 }
 .devsContainer .devs .dev .namePhoto p {
   text-align: center;

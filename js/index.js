@@ -28,7 +28,6 @@ class TabLink {
     selectCard(){
       this.cardElement.style.display = 'flex';
     }
-  
   }
   let tabs = document.querySelectorAll('.tab');
   

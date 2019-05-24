@@ -1,0 +1,60 @@
+.devsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: @darkBlue;
+    .devs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 800px;
+        background: @blue;
+    
+        #dev1 {
+            padding-top: 2rem;
+        }
+        .dev {
+            display: flex;
+            justify-content: flex-left;
+            width: 100%;
+            background: @blue;
+            padding-bottom: .5rem;
+    
+            .namePhoto {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                margin-right: 5rem;
+                margin-left: 2rem;
+                color: @white;
+                padding-bottom: 1rem;
+    
+                @media(max-width: 650px) {
+                    margin-right: 2rem;
+                }
+                img {
+                    width: 100px;
+                }
+                span {
+                    text-align:center;
+                    padding-top: .5rem;
+                }
+                p {
+                    text-align: center;
+                    margin-top: .5rem;
+                    width: 100px;
+                }
+            }
+    
+            .textContent {
+                color: @white;
+                margin-right: 1.5rem;
+
+                p {
+                    margin-top: 1.2rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Zombie Legislation Detector</title>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="js/index.js" async></script>
+</head>
+
+<body>
+  
+  
+  <div class = 'navDiv'>
+    <nav>
+      <a href = '#'>Home</a>
+      <a href = './about.html' id = 'about';>About Us</a>
+      <a href = 'https://zombie-legislation.herokuapp.com/home'>Log In </a>
+      <a class = 'signUp' href = 'https://zombie-legislation.herokuapp.com/home'>Sign Up</a>
+    </nav>
+  </div>
+  
+  <header>
+    <h1>Legicycle: A Data Science Project by Lambda Students</h1> 
+    <img src = "img/capitolnightstretch.jpg">
+  </header>
+  
+  
+
+  <div class="tabs">
+    <div class="topics">
+      <div data-tab="what" class="tab">What Does it Do?</div>
+      <div data-tab="how" class="tab">How Does it Work?</div>
+      <div data-tab="examples" class="tab">Take a Look!</div>
+    </div>
+  </div>
+
+  <div class="cards-container">
+
+    <!-- CARD COMPONENTS -->
+    
+    <div class="card" id = 'active' data-tab="what">
+      <div class="headline">What does Legicyle do?</div>
+      <div class="content">  
+        </div>
+        <span>Legicyle is a data-based database project which takes a prospective bill and compares it to every unpassed bill that's gone through the United States Congress or Senate in the last 50 years and checks for similar clauses. This allows us to identify clauses which have been suggested before but never made it into law, and have now been successful.  </span>    
+    </div>
+
+    <div class="card" data-tab="how">
+      <div class="headline">How does Legicycle Work?</div>
+      <div class="content">
+      </div>
+      <span>Using 21st century data science techniques, Legicyle identifies the subject matter of a bill and prepares to compare it to thousands of other bills with the same or similar subject matter. Once the subject is identified, the bill is split into clauses, and each clause is checked against every clause in every other bill using string analysis methods. Each old clause is given a similarity rating relative to the original clause. Old clauses with a sufficiently high rating are included in the search results.</span>
+    </div>
+
+    <div class="card" data-tab="examples">
+      <div class="headline">Why Legicycle?</div>
+      <div class="content">  
+      </div>
+      <span>We know that you have many choices when it comes to meeting your zombie legislation analysis needs and we appreciate you choosing to use our service. We hope that you will accept these free peanuts and pretzels as a token of our thanks. </span>
+    </div>
+
+  </div>
+<h1 class = iconsHeader>The Legicycle Pipeline</h1>
+  <div class = iconsContainer>
+    
+    <div class = 'icons'>
+      <div class = box>
+        <img src = 'img/Bill.svg' />
+        <p>Whenever a bill makes it through the system and is signed into law, it is added to our database of passed bills.</p>
+    </div>
+  
+    <div class = 'box'>
+        <img src = 'img/Code.svg' />
+        <p>Our users select from the database of passed bills so that our algorithms can check that bill against thousands of past failed bills.</p>
+    </div>
+
+    <div class = "box bottomBox">
+        <img src = 'img/Filter.svg' />
+        <p>We filter out the bills with the highest similarity ratings to find clauses that just won't go away!</p>
+    </div>
+    
+    <div class = 'box bottomBox'>
+        <img src = 'img/pieGraph.svg' />
+        <p>With Legicycle premium, additional context is given as to why the political climate may have been more hostile to the policy in question at the time it was shot down.</p>
+    </div>
+  
+    </div>
+  </div>
+
+
+
+  <div class = 'navDiv bottomNav'>
+    <nav>
+      <a href = '#'>Home</a>
+      <a href = './about.html' id = 'about'>About Us</a>
+      <a href = 'https://zombie-legislation.herokuapp.com/home'>Log In </a>
+      <a class = 'signUp' href = 'https://zombie-legislation.herokuapp.com/home'>Sign Up</a>
+    </nav>
+  </div>
+
+</body>
+
+</html>

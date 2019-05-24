@@ -1,0 +1,44 @@
+.navDiv {
+    background: #0f3d54;
+    display: flex;
+    justify-content: center;
+    margin-bottom: .5rem;
+    nav {
+        max-width: 800px;
+        color: @white;
+        .flex(space-around);
+        padding: .5rem 0;
+        margin: 0 0 .2rem 0;
+        width: 100%;
+        
+        a {
+            text-decoration: none;
+            color: @white;
+            background: @blue;
+            padding: .6rem 1rem;
+            border-radius: 3rem;
+        }
+
+        .signUp {
+            background: white;
+            color: black;
+            padding: .6rem 1rem;
+            border-radius: 3rem;
+            
+        }
+
+        #about {
+            margin-right: 10rem;
+        }
+        @media(max-width:650px) {
+            #about {
+                margin-right: 2.5rem;
+            }
+        }
+    }
+}
+
+.bottomNav {
+    border-top: .5rem solid white;
+    margin-bottom: 0;
+}
